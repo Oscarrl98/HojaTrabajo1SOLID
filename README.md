@@ -18,6 +18,7 @@ Solucion de problemas de programacion con la implementacion de los principios SO
    
    Open/ClosedPrinciple
    converterApp
+   
    Problem:
    - El problema radica cuando nosotros deseamos agregar un nuevo formato a la aplicacion sin modificar el codigo ya hecho, en este caso si decidieramos agregar un formato nuevo, tendriamos que modoficar la clase en la cual estan los demas formatos arriesganodonos de esa forma.
    
@@ -34,14 +35,18 @@ Solucion de problemas de programacion con la implementacion de los principios SO
    
    Interface Segregation Principle
    movieApp
+   
    Problem:
-   - El problema surge al tener todos los comportamientos o metodos dentro de una sola interfaz(IUserAcountsActions), metodos que no todos comparten, muy parecido al principio L,
+   - El problema surge al tener todos los comportamientos o metodos dentro de una sola interfaz(IUserAcountsActions), metodos que no todos comparten, muy parecido al principio L.
+  
    Solution:
    - La solucion segun este principio es crear una interfaz por cada comportamiento o accion que querramos ejecutar, asi podremos elegir que metodos implementar y compartir con otras clases
    
    Dependency Inversion Principle
    registerApp
+   
    Problem:
    - En esta aplicacion que registra un nombre,no se ve nada inusual,el problema radica en que cuando querramos almacenar esa informacion en una base de datos diferente o almacenar de diferente forma el dato.
+ 
    Solution:
    - La solucion radica en crear una interfaz(IDao)que contiene el metodo save y utilizar el constructor de la clase que ejecuta la logica del negocio(servicePerson) para crear una instancia de la clase que conecta con la bd, 
