@@ -15,6 +15,7 @@ Solucion de problemas de programacion con la implementacion de los principios SO
    - El problema radica en que las responsabilidades recaen en una sola clase la cual es el WorkShopController,
    Solution
    - Con base al princincipio de responsabilidad unica, se crea otra clase llamada WorkShopManagerController, el cual tendra las responsabilidades correspondientes a el, como la de DeliverCar,CollectServices,RecibeCar, las cuales estaban todas en una sola clase, dificultando el mantenimiento y lectura
+   
    Open/ClosedPrinciple
    converterApp
    Problem:
