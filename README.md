@@ -11,8 +11,10 @@ Solucion de problemas de programacion con la implementacion de los principios SO
 ## Samples
    Single Responsability Principle
    Vehicle Shop
+   
    Problem:
    - El problema radica en que las responsabilidades recaen en una sola clase la cual es el WorkShopController,
+  
    Solution
    - Con base al princincipio de responsabilidad unica, se crea otra clase llamada WorkShopManagerController, el cual tendra las responsabilidades correspondientes a el, como la de DeliverCar,CollectServices,RecibeCar, las cuales estaban todas en una sola clase, dificultando el mantenimiento y lectura
    
@@ -27,6 +29,7 @@ Solucion de problemas de programacion con la implementacion de los principios SO
    
    Liskov Substitution Principle
    vehiclesApp
+   
    Problem:
    - El problema consiste en que los vehiculos extiende a una clase con metodos que no pueden realizar todos debido a que hay vehiculos con ruedas y vehiculos sin ruedas, un problema de abstraccion.
    
