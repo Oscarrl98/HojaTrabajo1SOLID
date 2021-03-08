@@ -14,4 +14,10 @@ Solucion de problemas de programacion con la implementacion de los principios SO
    Problem:
    - El problema radica en que las responsabilidades recaen en una sola clase la cual es el WorkShopController,
    Solution
-   - Con base al princi
+   - Con base al princincipio de responsabilidad unica, se crea otra clase llamada WorkShopManagerController, el cual tendra las responsabilidades correspondientes a el, como la de DeliverCar,CollectServices,RecibeCar, las cuales estaban todas en una sola clase, dificultando el mantenimiento y lectura
+   Open/ClosedPrinciple
+   converterApp
+   Problem:
+   - El problema radica cuando nosotros deseamos agregar un nuevo formato a la aplicacion sin modificar el codigo ya hecho, en este caso si decidieramos agregar un formato nuevo, tendriamos que modoficar la clase en la cual estan los demas formatos arriesganodonos de esa forma.
+   Solution:
+   -La solucion una interfaz la cual contiene el metodo convertir y creamos una clase para cada formato las cuales implementan a la interfaz y una clase adicional que contenga un metodo con el parametro de entrada de tipo interfaz, de este modo nos aseguramos que solo recibiremos objetos correctos, de esta manera podremos agregar multiples formatos sin la necesidad de modificar el codigo ya crado.
