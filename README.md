@@ -3,11 +3,11 @@ Solucion de problemas de programacion con la implementacion de los principios SO
 - Nombre:Oscar Raul Lopez Perez
 - Carnet:1290-17-4138
 ## Principles
-- Single Responsibility Principle- S-Solution,S-Problem
-- Open/Closed Principle
-- Liskov Substitution Principle
-- Interface Segregation Principle
-- Dependency Inversion Principle
+- Single Responsibility Principle: S-Solution,S-Problem
+- Open/Closed Principle: O-Problem,O-Solution
+- Liskov Substitution Principle: L-Problem, L-Solution
+- Interface Segregation Principle: I-Problem, I-Solution
+- Dependency Inversion Principle: D-Problem,- D-Solution
 ## Samples
    Single Responsability Principle
    Vehicle Shop
